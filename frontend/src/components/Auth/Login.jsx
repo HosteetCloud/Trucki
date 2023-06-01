@@ -19,7 +19,7 @@ console.log('err')
                 "password": password
             });
             console.log(data)
-            const response  = await axios.post('http://localhost:5000/api/auth/superadmin/login', {
+            const response  = await axios.post('trucki-production.up.railway.app', {
                 "email": email,
                 "password": password
             }).then(res=>res).catch(res => res.response);
