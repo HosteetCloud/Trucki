@@ -1054,6 +1054,11 @@ sparse-bitfield@^3.0.3:
   dependencies:
     memory-pager "^1.0.2"
 
+"start@nodemon server.js":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/start/-/start-5.1.0.tgz#1c171f0ef9487f56d0ab9a755ace860169208763"
+  integrity sha512-lirwWQmvBC65bnxU3HzKx5m7vfZJZTx/FrKyPWbtobcvujGbinQQRrNodtcgkp4mTZ00umzDeg7lraN351l0aA==
+
 statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"

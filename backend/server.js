@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json());
 
 // Routes
-// app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./routes/auth'));
 
 mongoose
     .connect("mongodb+srv://Hosteet:Trucki%402023@cluster0.5aikql0.mongodb.net/?retryWrites=true&w=majority", {
